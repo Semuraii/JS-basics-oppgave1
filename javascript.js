@@ -14,6 +14,16 @@ const når du definerer variablene.
 
 // Skriv koden for oppgave 2 her
 
+// String
+let userName = "Thomas";
+
+// Number
+const userAge = 30;
+
+// Boolean
+
+
+
 /******************************************************************************
 OPPGAVE 3
 
