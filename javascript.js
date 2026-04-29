@@ -15,13 +15,13 @@ const når du definerer variablene.
 // Skriv koden for oppgave 2 her
 
 // String
-let userName = "Thomas";
+let userName = "Thomas Hansen";
 
 // Number
 const userAge = 22;
 
 // Boolean
-let isStudent = true;
+let isLoggedIn = true;
 
 // Array
 const hobbies = ["gaming", "hikes", "anime"];
@@ -97,6 +97,14 @@ let goToPage = "";
 
 // Skriv koden for oppgave 4 her
 
+if (userName !== "" && userAge >= 18 && userIsBlocked === false) {
+    userIsLoggedIn = true;
+    goToPage = "/home";
+    console.log(`Velkommen, ${userName}! Du er nå logget inn.`);
+} else {
+    console.log("Beklager, noe gikk galt. Vennligst prøv igjen.");
+}
+
 /******************************************************************************
 OPPGAVE 5
 
@@ -112,6 +120,5 @@ Prøv å endre userMale til både true og false og bruk console.log for å sjekk
 at betingelsen din fungerer som den skal.
 ******************************************************************************/
 
-const userMale = false;
-
 // Skriv koden for oppgave 5 her
+
