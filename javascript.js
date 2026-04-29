@@ -18,11 +18,13 @@ const når du definerer variablene.
 let userName = "Thomas";
 
 // Number
-const userAge = 30;
+const userAge = 22;
 
 // Boolean
+let isStudent = true;
 
-
+// Array
+const hobbies = ["gaming", "hikes", "anime"];
 
 /******************************************************************************
 OPPGAVE 3
