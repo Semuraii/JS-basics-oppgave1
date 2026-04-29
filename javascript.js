@@ -38,6 +38,36 @@ Skriv noen eksempler der du tester disse operatorene.
 
 // Skriv koden for oppgave 3 her
 
+let a = 11;
+let b = 10;
+
+// Matematiske operatorer
+console.log(a + b); // 21
+console.log(a - b); // 1
+console.log(a * b); // 110
+console.log(a / b); // 1.1
+console.log(a + a); // 22
+console.log(b - b); // 0
+console.log(a * 2); // 22
+console.log(b / 2); // 5
+
+// Forkortede operatorer
+
+a++; // a = a + 1
+console.log(a); // 12
+
+b--; // b = b - 1
+console.log(b); // 9
+
+a += 5; // a = a + 5
+console.log(a); // 17
+
+b -= 3; // b = b - 3
+console.log(b); // 6
+
+
+
+
 /******************************************************************************
 OPPGAVE 4
 
