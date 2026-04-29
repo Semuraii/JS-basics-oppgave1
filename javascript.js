@@ -122,3 +122,7 @@ at betingelsen din fungerer som den skal.
 
 // Skriv koden for oppgave 5 her
 
+const userMale = true;
+const userTitle = userMale ? "Mr." : "Mrs.";
+console.log(userTitle);
+
